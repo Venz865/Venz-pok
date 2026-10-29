@@ -9,7 +9,7 @@ import PackageDescription
 let package = Package(
     name: "FlutterGeneratedPluginSwiftPackage",
     platforms: [
-        .iOS("13.0")
+        .macOS("10.15")
     ],
     products: [
         .library(name: "FlutterGeneratedPluginSwiftPackage", type: .static, targets: ["FlutterGeneratedPluginSwiftPackage"])
